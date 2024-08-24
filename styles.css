@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, rgb(87, 131, 209), rgb(181, 236, 86));
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 35px;
+    padding-right: 20px;
+    margin: 0;
+    text-align: center; 
+    color: #fff; 
+    text-shadow: 2px  3px 4px  black;
+}
+
+.stopwatch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 20px;
+}
+
+.circle {
+    width: 320px;
+    height: 320px;
+    background-color: #dbd5d5;
+    border-radius: 50%;
+    box-shadow: 0 0 40px rgba(126, 197, 33, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 4px solid rgba(24, 24, 144, 0.932);
+    outline: 8px solid rgb(170, 231, 65);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#time-display {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #222; }
+
+.buttons button {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(24, 24, 144, 0.932);
+    color: white;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
